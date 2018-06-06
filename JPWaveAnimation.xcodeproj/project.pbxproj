@@ -13,6 +13,7 @@
 		F502194C20C7D7D800588B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F502194B20C7D7D800588B67 /* Assets.xcassets */; };
 		F502194F20C7D7D800588B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F502194D20C7D7D800588B67 /* LaunchScreen.storyboard */; };
 		F502195220C7D7D800588B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F502195120C7D7D800588B67 /* main.m */; };
+		F502195B20C7D80800588B67 /* JPWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F502195A20C7D80800588B67 /* JPWaveAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F502194E20C7D7D800588B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F502195020C7D7D800588B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F502195120C7D7D800588B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F502195920C7D80800588B67 /* JPWaveAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPWaveAnimationView.h; sourceTree = "<group>"; };
+		F502195A20C7D80800588B67 /* JPWaveAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPWaveAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F502194120C7D7D700588B67 /* JPWaveAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				F502195820C7D7F200588B67 /* JPWaveAnimationView */,
 				F502194220C7D7D700588B67 /* AppDelegate.h */,
 				F502194320C7D7D700588B67 /* AppDelegate.m */,
 				F502194520C7D7D700588B67 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				F502195120C7D7D800588B67 /* main.m */,
 			);
 			path = JPWaveAnimation;
+			sourceTree = "<group>";
+		};
+		F502195820C7D7F200588B67 /* JPWaveAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				F502195920C7D80800588B67 /* JPWaveAnimationView.h */,
+				F502195A20C7D80800588B67 /* JPWaveAnimationView.m */,
+			);
+			path = JPWaveAnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F502195B20C7D80800588B67 /* JPWaveAnimationView.m in Sources */,
 				F502194720C7D7D700588B67 /* ViewController.m in Sources */,
 				F502195220C7D7D800588B67 /* main.m in Sources */,
 				F502194420C7D7D700588B67 /* AppDelegate.m in Sources */,
